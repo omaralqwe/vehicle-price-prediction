@@ -53,7 +53,4 @@ The project uses a comprehensive vehicle dataset (`vehicles.csv`) containing app
 
 **Model Insights**: Vehicle age and mileage are the strongest predictors, followed by brand reputation and condition. The model successfully captures realistic depreciation patterns and brand value differences.
 
-## CONTACT DETAILS
-
-This project demonstrates advanced machine learning techniques including Bayesian optimization, comprehensive error analysis, and domain-aware feature engineering for real-world price prediction applications. 
 
