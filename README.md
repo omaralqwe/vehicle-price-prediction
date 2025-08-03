@@ -6,11 +6,17 @@ This project predicts used vehicle resale prices using advanced machine learning
 
 ## DATA
 
-The project uses a comprehensive vehicle dataset (`vehicles.csv`) containing approximately 426,000 vehicle records with features including:
+**Dataset Source**: [Craigslist Cars & Trucks Data](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data) - Full dataset available on Kaggle
+
+The project uses a comprehensive vehicle dataset containing approximately 426,000 vehicle records with features including:
 - **Price**: Target variable (vehicle selling price)
 - **Vehicle Information**: Year, manufacturer, model, condition, odometer reading
 - **Technical Specs**: Fuel type, transmission, drive type, cylinders
 - **Market Data**: State, region, posting date
+
+**Files**:
+- `vehicles.csv` - Full dataset (1.3GB, available via Kaggle link above)
+- `vehicles_sample.csv` - Stratified sample (6,168 records, 20.5MB) for demonstration and development
 
 **Data Preprocessing**: Applied intelligent filtering to remove outliers (prices $1,500-$75,000, vehicles 1990+, mileage <400,000), z-score outlier detection, and domain-aware feature engineering including vehicle age, miles per year, brand tier classification, and condition scoring.
 
