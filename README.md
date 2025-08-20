@@ -1,6 +1,6 @@
 # Vehicle Price Prediction with Bayesian Optimization
 
-## NON-TECHNICAL EXPLANATION OF YOUR PROJECT
+## NON-TECHNICAL EXPLANATION OF ThIS PROJECT
 
 This project predicts used vehicle resale prices using advanced machine learning and optimization techniques. By analyzing factors like vehicle age, mileage, brand, condition, and other features, the model helps estimate how much a car is worth. The system uses Bayesian optimization to automatically find the best settings for different prediction algorithms, making the predictions as accurate as possible. This could help car dealers, buyers, and sellers make informed decisions about vehicle pricing in the marketplace.
 
